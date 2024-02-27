@@ -2,12 +2,15 @@
 @import "mixins/media";
 
 // Configuration
-@import "config/variables";
+@import "config/animations";
 @import "config/reset";
+@import "config/variables";
 
 // Components
 @import "components/btn";
+@import "components/empty_state";
 @import "components/error_message";
+@import "components/flash";
 @import "components/form";
 @import "components/navbar";
 @import "components/quote";
